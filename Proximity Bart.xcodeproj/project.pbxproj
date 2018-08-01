@@ -1,0 +1,610 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EA3C13A52110F0A2005B42B4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA3C13A42110F0A2005B42B4 /* AppDelegate.swift */; };
+		EA3C13A72110F0A2005B42B4 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA3C13A62110F0A2005B42B4 /* TableViewController.swift */; };
+		EA3C13AA2110F0A2005B42B4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA3C13A82110F0A2005B42B4 /* Main.storyboard */; };
+		EA3C13AD2110F0A2005B42B4 /* Proximity_Bart.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = EA3C13AB2110F0A2005B42B4 /* Proximity_Bart.xcdatamodeld */; };
+		EA3C13AF2110F0A4005B42B4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EA3C13AE2110F0A4005B42B4 /* Assets.xcassets */; };
+		EA3C13B22110F0A4005B42B4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA3C13B02110F0A4005B42B4 /* LaunchScreen.storyboard */; };
+		EA3C13BD2110F0A4005B42B4 /* Proximity_BartTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA3C13BC2110F0A4005B42B4 /* Proximity_BartTests.swift */; };
+		EA3C13C82110F0A4005B42B4 /* Proximity_BartUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA3C13C72110F0A4005B42B4 /* Proximity_BartUITests.swift */; };
+		EA3C13D62111455B005B42B4 /* BrowseTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA3C13D52111455B005B42B4 /* BrowseTableViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EA3C13B92110F0A4005B42B4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EA3C13992110F0A2005B42B4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EA3C13A02110F0A2005B42B4;
+			remoteInfo = "Proximity Bart";
+		};
+		EA3C13C42110F0A4005B42B4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EA3C13992110F0A2005B42B4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EA3C13A02110F0A2005B42B4;
+			remoteInfo = "Proximity Bart";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EA3C13A12110F0A2005B42B4 /* Proximity Bart.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Proximity Bart.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA3C13A42110F0A2005B42B4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EA3C13A62110F0A2005B42B4 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		EA3C13A92110F0A2005B42B4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EA3C13AC2110F0A2005B42B4 /* Proximity_Bart.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Proximity_Bart.xcdatamodel; sourceTree = "<group>"; };
+		EA3C13AE2110F0A4005B42B4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EA3C13B12110F0A4005B42B4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EA3C13B32110F0A4005B42B4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EA3C13B82110F0A4005B42B4 /* Proximity BartTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Proximity BartTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA3C13BC2110F0A4005B42B4 /* Proximity_BartTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Proximity_BartTests.swift; sourceTree = "<group>"; };
+		EA3C13BE2110F0A4005B42B4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EA3C13C32110F0A4005B42B4 /* Proximity BartUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Proximity BartUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA3C13C72110F0A4005B42B4 /* Proximity_BartUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Proximity_BartUITests.swift; sourceTree = "<group>"; };
+		EA3C13C92110F0A4005B42B4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EA3C13D52111455B005B42B4 /* BrowseTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrowseTableViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EA3C139E2110F0A2005B42B4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA3C13B52110F0A4005B42B4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA3C13C02110F0A4005B42B4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EA3C13982110F0A2005B42B4 = {
+			isa = PBXGroup;
+			children = (
+				EA3C13A32110F0A2005B42B4 /* Proximity Bart */,
+				EA3C13BB2110F0A4005B42B4 /* Proximity BartTests */,
+				EA3C13C62110F0A4005B42B4 /* Proximity BartUITests */,
+				EA3C13A22110F0A2005B42B4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EA3C13A22110F0A2005B42B4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EA3C13A12110F0A2005B42B4 /* Proximity Bart.app */,
+				EA3C13B82110F0A4005B42B4 /* Proximity BartTests.xctest */,
+				EA3C13C32110F0A4005B42B4 /* Proximity BartUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EA3C13A32110F0A2005B42B4 /* Proximity Bart */ = {
+			isa = PBXGroup;
+			children = (
+				EA3C13A42110F0A2005B42B4 /* AppDelegate.swift */,
+				EA3C13A62110F0A2005B42B4 /* TableViewController.swift */,
+				EA3C13A82110F0A2005B42B4 /* Main.storyboard */,
+				EA3C13AE2110F0A4005B42B4 /* Assets.xcassets */,
+				EA3C13B02110F0A4005B42B4 /* LaunchScreen.storyboard */,
+				EA3C13B32110F0A4005B42B4 /* Info.plist */,
+				EA3C13AB2110F0A2005B42B4 /* Proximity_Bart.xcdatamodeld */,
+				EA3C13D52111455B005B42B4 /* BrowseTableViewController.swift */,
+			);
+			path = "Proximity Bart";
+			sourceTree = "<group>";
+		};
+		EA3C13BB2110F0A4005B42B4 /* Proximity BartTests */ = {
+			isa = PBXGroup;
+			children = (
+				EA3C13BC2110F0A4005B42B4 /* Proximity_BartTests.swift */,
+				EA3C13BE2110F0A4005B42B4 /* Info.plist */,
+			);
+			path = "Proximity BartTests";
+			sourceTree = "<group>";
+		};
+		EA3C13C62110F0A4005B42B4 /* Proximity BartUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EA3C13C72110F0A4005B42B4 /* Proximity_BartUITests.swift */,
+				EA3C13C92110F0A4005B42B4 /* Info.plist */,
+			);
+			path = "Proximity BartUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EA3C13A02110F0A2005B42B4 /* Proximity Bart */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA3C13CC2110F0A4005B42B4 /* Build configuration list for PBXNativeTarget "Proximity Bart" */;
+			buildPhases = (
+				EA3C139D2110F0A2005B42B4 /* Sources */,
+				EA3C139E2110F0A2005B42B4 /* Frameworks */,
+				EA3C139F2110F0A2005B42B4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Proximity Bart";
+			productName = "Proximity Bart";
+			productReference = EA3C13A12110F0A2005B42B4 /* Proximity Bart.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EA3C13B72110F0A4005B42B4 /* Proximity BartTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA3C13CF2110F0A4005B42B4 /* Build configuration list for PBXNativeTarget "Proximity BartTests" */;
+			buildPhases = (
+				EA3C13B42110F0A4005B42B4 /* Sources */,
+				EA3C13B52110F0A4005B42B4 /* Frameworks */,
+				EA3C13B62110F0A4005B42B4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EA3C13BA2110F0A4005B42B4 /* PBXTargetDependency */,
+			);
+			name = "Proximity BartTests";
+			productName = "Proximity BartTests";
+			productReference = EA3C13B82110F0A4005B42B4 /* Proximity BartTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EA3C13C22110F0A4005B42B4 /* Proximity BartUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA3C13D22110F0A4005B42B4 /* Build configuration list for PBXNativeTarget "Proximity BartUITests" */;
+			buildPhases = (
+				EA3C13BF2110F0A4005B42B4 /* Sources */,
+				EA3C13C02110F0A4005B42B4 /* Frameworks */,
+				EA3C13C12110F0A4005B42B4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EA3C13C52110F0A4005B42B4 /* PBXTargetDependency */,
+			);
+			name = "Proximity BartUITests";
+			productName = "Proximity BartUITests";
+			productReference = EA3C13C32110F0A4005B42B4 /* Proximity BartUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EA3C13992110F0A2005B42B4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = "Riken Maharjan";
+				TargetAttributes = {
+					EA3C13A02110F0A2005B42B4 = {
+						CreatedOnToolsVersion = 9.3.1;
+					};
+					EA3C13B72110F0A4005B42B4 = {
+						CreatedOnToolsVersion = 9.3.1;
+						TestTargetID = EA3C13A02110F0A2005B42B4;
+					};
+					EA3C13C22110F0A4005B42B4 = {
+						CreatedOnToolsVersion = 9.3.1;
+						TestTargetID = EA3C13A02110F0A2005B42B4;
+					};
+				};
+			};
+			buildConfigurationList = EA3C139C2110F0A2005B42B4 /* Build configuration list for PBXProject "Proximity Bart" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EA3C13982110F0A2005B42B4;
+			productRefGroup = EA3C13A22110F0A2005B42B4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EA3C13A02110F0A2005B42B4 /* Proximity Bart */,
+				EA3C13B72110F0A4005B42B4 /* Proximity BartTests */,
+				EA3C13C22110F0A4005B42B4 /* Proximity BartUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EA3C139F2110F0A2005B42B4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA3C13B22110F0A4005B42B4 /* LaunchScreen.storyboard in Resources */,
+				EA3C13AF2110F0A4005B42B4 /* Assets.xcassets in Resources */,
+				EA3C13AA2110F0A2005B42B4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA3C13B62110F0A4005B42B4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA3C13C12110F0A4005B42B4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EA3C139D2110F0A2005B42B4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA3C13A72110F0A2005B42B4 /* TableViewController.swift in Sources */,
+				EA3C13AD2110F0A2005B42B4 /* Proximity_Bart.xcdatamodeld in Sources */,
+				EA3C13A52110F0A2005B42B4 /* AppDelegate.swift in Sources */,
+				EA3C13D62111455B005B42B4 /* BrowseTableViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA3C13B42110F0A4005B42B4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA3C13BD2110F0A4005B42B4 /* Proximity_BartTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA3C13BF2110F0A4005B42B4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA3C13C82110F0A4005B42B4 /* Proximity_BartUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EA3C13BA2110F0A4005B42B4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EA3C13A02110F0A2005B42B4 /* Proximity Bart */;
+			targetProxy = EA3C13B92110F0A4005B42B4 /* PBXContainerItemProxy */;
+		};
+		EA3C13C52110F0A4005B42B4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EA3C13A02110F0A2005B42B4 /* Proximity Bart */;
+			targetProxy = EA3C13C42110F0A4005B42B4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EA3C13A82110F0A2005B42B4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EA3C13A92110F0A2005B42B4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EA3C13B02110F0A4005B42B4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EA3C13B12110F0A4005B42B4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EA3C13CA2110F0A4005B42B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EA3C13CB2110F0A4005B42B4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EA3C13CD2110F0A4005B42B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MYR79F655Y;
+				INFOPLIST_FILE = "Proximity Bart/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "co.nibble.Proximity-Bart";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EA3C13CE2110F0A4005B42B4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MYR79F655Y;
+				INFOPLIST_FILE = "Proximity Bart/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "co.nibble.Proximity-Bart";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		EA3C13D02110F0A4005B42B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MYR79F655Y;
+				INFOPLIST_FILE = "Proximity BartTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "co.nibble.Proximity-BartTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Proximity Bart.app/Proximity Bart";
+			};
+			name = Debug;
+		};
+		EA3C13D12110F0A4005B42B4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MYR79F655Y;
+				INFOPLIST_FILE = "Proximity BartTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "co.nibble.Proximity-BartTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Proximity Bart.app/Proximity Bart";
+			};
+			name = Release;
+		};
+		EA3C13D32110F0A4005B42B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MYR79F655Y;
+				INFOPLIST_FILE = "Proximity BartUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "co.nibble.Proximity-BartUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Proximity Bart";
+			};
+			name = Debug;
+		};
+		EA3C13D42110F0A4005B42B4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MYR79F655Y;
+				INFOPLIST_FILE = "Proximity BartUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "co.nibble.Proximity-BartUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Proximity Bart";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EA3C139C2110F0A2005B42B4 /* Build configuration list for PBXProject "Proximity Bart" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA3C13CA2110F0A4005B42B4 /* Debug */,
+				EA3C13CB2110F0A4005B42B4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EA3C13CC2110F0A4005B42B4 /* Build configuration list for PBXNativeTarget "Proximity Bart" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA3C13CD2110F0A4005B42B4 /* Debug */,
+				EA3C13CE2110F0A4005B42B4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EA3C13CF2110F0A4005B42B4 /* Build configuration list for PBXNativeTarget "Proximity BartTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA3C13D02110F0A4005B42B4 /* Debug */,
+				EA3C13D12110F0A4005B42B4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EA3C13D22110F0A4005B42B4 /* Build configuration list for PBXNativeTarget "Proximity BartUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA3C13D32110F0A4005B42B4 /* Debug */,
+				EA3C13D42110F0A4005B42B4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		EA3C13AB2110F0A2005B42B4 /* Proximity_Bart.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				EA3C13AC2110F0A2005B42B4 /* Proximity_Bart.xcdatamodel */,
+			);
+			currentVersion = EA3C13AC2110F0A2005B42B4 /* Proximity_Bart.xcdatamodel */;
+			path = Proximity_Bart.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = EA3C13992110F0A2005B42B4 /* Project object */;
+}
