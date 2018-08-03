@@ -12,11 +12,23 @@ class BrowseTableViewController: UITableViewController {
     
     let header = ["Subway"]
     var Lines = ["Richmond–​Daly City/​Millbrae","Dublin/​Pleasanton–​Daly City","Warm Springs/South Fremont–​Daly City"," Antioch–​SFO/​Millbrae", "Richmond–​Warm Springs/South Fremont"]
+    
+//    var cells = ["Red","Blue","Green","Yellow","Orange"]
 
     override func viewDidLoad() {
         super.viewDidLoad()
         
          tableView.tableFooterView = UIView()
+        
+        navigationController?.navigationBar.tintColor = .white
+        
+//        tableView.register(UITableViewCell.self, forCellReuseIdentifier: "Red")
+//        tableView.register(UITableViewCell.self, forCellReuseIdentifier: "Blue")
+//        tableView.register(UITableViewCell.self, forCellReuseIdentifier: "Green")
+//        tableView.register(UITableViewCell.self, forCellReuseIdentifier: "Yellow")
+//        tableView.register(UITableViewCell.self, forCellReuseIdentifier: "Orange")
+//
+        
 
         // Uncomment the following line to preserve selection between presentations
         // self.clearsSelectionOnViewWillAppear = false
@@ -53,21 +65,35 @@ class BrowseTableViewController: UITableViewController {
     override func tableView(_ tableView: UITableView, heightForHeaderInSection section: Int) -> CGFloat {
         return 50
     }
+    
+//    override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+//        
+//        print(indexPath.row)
+//
+//        if indexPath.row == 0{
+//            
+//            navigationController?.title = "Red"
+//        }
+//    }
 
 //    override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
 //        // #warning Incomplete implementation, return the number of rows
 //        return 0
 //    }
 
-    /*
-    override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: "reuseIdentifier", for: indexPath)
-
-        // Configure the cell...
-
-        return cell
-    }
-    */
+    
+//    override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+//        let cell = tableView.dequeueReusableCell(withIdentifier: cells[indexPath.row], for: indexPath) as! UITableViewCell
+//
+//        // Configure the cell...
+//        
+//        
+//        
+//        cell.selectionStyle = .none
+//
+//        return cell
+//    }
+// 
 
     /*
     // Override to support conditional editing of the table view.
